@@ -1,0 +1,174 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ApplangaSwiftUI
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Applanga
+import Foundation
+import ObjectiveC
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+public struct ApplangaLocalizedStringKey {
+  public var localizedStringKey: SwiftUI.LocalizedStringKey {
+    get
+  }
+  public var localized: Swift.String {
+    get
+  }
+  public init(_ value: Swift.String)
+}
+public typealias ApplangaLocalizationValue = Swift.String.ApplangaLocalizationValue
+extension Swift.String {
+  public struct ApplangaLocalizationValue {
+    @available(iOS 15, *)
+    public var localizationValue: Swift.String.LocalizationValue {
+      get
+    }
+    public init(_ value: Swift.String)
+  }
+}
+public protocol ApplanagaTextProtocol {
+  init(_ key: ApplangaSwiftUI.ApplangaLocalizedStringKey)
+  init(_ key: ApplangaSwiftUI.ApplangaLocalizedStringKey, comment: Swift.StaticString)
+}
+extension SwiftUI.Text : ApplangaSwiftUI.ApplanagaTextProtocol {
+  public init(_ key: ApplangaSwiftUI.ApplangaLocalizedStringKey)
+  public init(_ key: ApplangaSwiftUI.ApplangaLocalizedStringKey, comment: Swift.StaticString)
+}
+@available(iOS 16.0, *)
+extension SwiftUI.TextField where Label == SwiftUI.Text {
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, text: SwiftUI.Binding<Swift.String>, axis: SwiftUI.Axis)
+  public init(_ titleKey: Swift.String, text: SwiftUI.Binding<Swift.String>, axis: SwiftUI.Axis)
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, text: SwiftUI.Binding<Swift.String>, prompt: SwiftUI.Text?, axis: SwiftUI.Axis)
+  public init(_ titleKey: Swift.String, text: SwiftUI.Binding<Swift.String>, prompt: SwiftUI.Text?, axis: SwiftUI.Axis)
+}
+@available(iOS 15.0, *)
+extension SwiftUI.TextField where Label == SwiftUI.Text {
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, text: SwiftUI.Binding<Swift.String>, prompt: SwiftUI.Text?)
+  public init(_ titleKey: Swift.String, text: SwiftUI.Binding<Swift.String>, prompt: SwiftUI.Text?)
+}
+extension SwiftUI.TextField where Label == SwiftUI.Text {
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, text: SwiftUI.Binding<Swift.String>)
+  public init(_ titleKey: Swift.String, text: SwiftUI.Binding<Swift.String>)
+}
+extension SwiftUI.Button where Label == SwiftUI.Text {
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, action: @escaping () -> Swift.Void)
+  public init(_ titleKey: Swift.String, action: @escaping () -> Swift.Void)
+}
+@available(iOS 14.0, *)
+extension SwiftUI.ColorPicker where Label == SwiftUI.Text {
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, selection: SwiftUI.Binding<SwiftUI.Color>, supportsOpacity: Swift.Bool = true)
+  public init(_ titleKey: Swift.String, selection: SwiftUI.Binding<SwiftUI.Color>, supportsOpacity: Swift.Bool = true)
+}
+@available(iOS 14.0, *)
+extension SwiftUI.Label where Title == SwiftUI.Text, Icon == SwiftUI.Image {
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, image name: Swift.String)
+  public init(_ titleKey: Swift.String, image name: Swift.String)
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, systemImage name: Swift.String)
+  public init(_ titleKey: Swift.String, systemImage name: Swift.String)
+}
+@available(iOS 16.0, *)
+extension SwiftUI.LabeledContent where Label == SwiftUI.Text, Content : SwiftUI.View {
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, @SwiftUI.ViewBuilder content: () -> Content)
+  public init(_ titleKey: Swift.String, @SwiftUI.ViewBuilder content: () -> Content)
+}
+@available(iOS 14.0, *)
+extension SwiftUI.Link where Label == SwiftUI.Text {
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, destination: Foundation.URL)
+  public init(_ titleKey: Swift.String, destination: Foundation.URL)
+}
+@available(iOS 14.0, *)
+extension SwiftUI.Menu where Label == SwiftUI.Text {
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, @SwiftUI.ViewBuilder content: () -> Content)
+  public init(_ titleKey: Swift.String, @SwiftUI.ViewBuilder content: () -> Content)
+}
+@available(iOS 14.0, *)
+extension SwiftUI.ModifiedContent where Modifier == SwiftUI.AccessibilityAttachmentModifier {
+  public func accessibilityAction(named nameKey: Swift.String, _ handler: @escaping () -> Swift.Void) -> SwiftUI.ModifiedContent<Content, Modifier>
+}
+extension SwiftUI.Toggle where Label == SwiftUI.Text {
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, isOn: SwiftUI.Binding<Swift.Bool>)
+  public init(_ titleKey: Swift.String, isOn: SwiftUI.Binding<Swift.Bool>)
+}
+@available(iOS 16.0, *)
+extension SwiftUI.Toggle where Label == SwiftUI.Text {
+  public init<C>(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, sources: C, isOn: Swift.KeyPath<C.Element, SwiftUI.Binding<Swift.Bool>>) where C : Swift.RandomAccessCollection
+  public init<C>(_ titleKey: Swift.String, sources: C, isOn: Swift.KeyPath<C.Element, SwiftUI.Binding<Swift.Bool>>) where C : Swift.RandomAccessCollection
+}
+@available(iOS 15, *)
+public protocol ApplanagaAttributedStringProtocol {
+  init(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.FormattingOptions)
+  init(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.FormattingOptions, comment: Swift.StaticString)
+  init<S>(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.FormattingOptions, including scope: S.Type) where S : Foundation.AttributeScope
+  init<S>(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.FormattingOptions, comment: Swift.StaticString, including scope: S.Type) where S : Foundation.AttributeScope
+  @available(iOS 16, *)
+  init(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.LocalizationOptions)
+  @available(iOS 16, *)
+  init(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.LocalizationOptions, comment: Swift.StaticString)
+  @available(iOS 16, *)
+  init<S>(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.LocalizationOptions, including scope: S.Type) where S : Foundation.AttributeScope
+  @available(iOS 16, *)
+  init<S>(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.LocalizationOptions, comment: Swift.StaticString, including scope: S.Type) where S : Foundation.AttributeScope
+  @available(iOS 16, *)
+  init<S>(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.LocalizationOptions, including scope: Swift.KeyPath<Foundation.AttributeScopes, S.Type>) where S : Foundation.AttributeScope
+  @available(iOS 16, *)
+  init<S>(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.LocalizationOptions, comment: Swift.StaticString, including scope: Swift.KeyPath<Foundation.AttributeScopes, S.Type>) where S : Foundation.AttributeScope
+}
+@available(iOS 15, *)
+extension Foundation.AttributedString : ApplangaSwiftUI.ApplanagaAttributedStringProtocol {
+  public init(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.FormattingOptions = [])
+  public init(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.FormattingOptions = [], comment: Swift.StaticString)
+  public init<S>(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.FormattingOptions = [], including scope: S.Type) where S : Foundation.AttributeScope
+  public init<S>(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.FormattingOptions = [], comment: Swift.StaticString, including scope: S.Type) where S : Foundation.AttributeScope
+}
+@available(iOS 16, *)
+extension Foundation.AttributedString {
+  public init(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.LocalizationOptions)
+  public init(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.LocalizationOptions, comment: Swift.StaticString)
+  public init<S>(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.LocalizationOptions, including scope: S.Type) where S : Foundation.AttributeScope
+  public init<S>(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.LocalizationOptions, comment: Swift.StaticString, including scope: S.Type) where S : Foundation.AttributeScope
+  public init<S>(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.LocalizationOptions, including scope: Swift.KeyPath<Foundation.AttributeScopes, S.Type>) where S : Foundation.AttributeScope
+  public init<S>(localized key: ApplangaSwiftUI.ApplangaLocalizationValue, options: Foundation.AttributedString.LocalizationOptions, comment: Swift.StaticString, including scope: Swift.KeyPath<Foundation.AttributeScopes, S.Type>) where S : Foundation.AttributeScope
+}
+extension ApplangaSwiftUI.ApplangaLocalizedStringKey : Swift.ExpressibleByStringInterpolation {
+  public typealias StringInterpolation = SwiftUI.LocalizedStringKey.StringInterpolation
+  public init(stringInterpolation: SwiftUI.LocalizedStringKey.StringInterpolation)
+  public init(stringLiteral value: Swift.String)
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.String
+  public typealias StringLiteralType = Swift.String
+  public typealias UnicodeScalarLiteralType = Swift.String
+}
+extension Swift.String.ApplangaLocalizationValue : Swift.ExpressibleByStringInterpolation {
+  public typealias StringInterpolation = SwiftUI.LocalizedStringKey.StringInterpolation
+  public init(stringInterpolation: SwiftUI.LocalizedStringKey.StringInterpolation)
+  public init(stringLiteral value: Swift.String)
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.String
+  public typealias StringLiteralType = Swift.String
+  public typealias UnicodeScalarLiteralType = Swift.String
+}
+extension Swift.DefaultStringInterpolation {
+  @_hasMissingDesignatedInitializers public class Wrapper {
+    @objc deinit
+  }
+  public mutating func appendInterpolation(_ string: Swift.String)
+  public mutating func appendInterpolation<Subject>(_ subject: Subject, formatter: Foundation.Formatter? = nil) where Subject : Foundation.ReferenceConvertible
+  public mutating func appendInterpolation<Subject>(_ subject: Subject, formatter: Foundation.Formatter? = nil) where Subject : ObjectiveC.NSObject
+  @available(iOS 15.0, *)
+  public mutating func appendInterpolation<F>(_ input: F.FormatInput, format: F) where F : Foundation.FormatStyle, F.FormatInput : Swift.Equatable, F.FormatOutput == Swift.String
+  public mutating func appendInterpolation<T>(_ value: T) where T : Swift.CustomStringConvertible, T : Swift.TextOutputStreamable
+  @_disfavoredOverload public mutating func appendInterpolation<T>(_ value: T) where T : Swift.CustomStringConvertible
+  @_disfavoredOverload public mutating func appendInterpolation<T>(_ value: T) where T : SwiftUI._FormatSpecifiable
+  public mutating func appendInterpolation<T>(_ value: T, specifier: Swift.String) where T : SwiftUI._FormatSpecifiable
+  @available(iOS 14.0, *)
+  public mutating func appendInterpolation(_ text: SwiftUI.Text)
+  @available(iOS 15, *)
+  public mutating func appendInterpolation(_ attributedString: Foundation.AttributedString)
+  @available(iOS 14.0, *)
+  public mutating func appendInterpolation(_ date: Foundation.Date, style: SwiftUI.Text.DateStyle)
+  @available(iOS 14.0, *)
+  public mutating func appendInterpolation(_ dates: Swift.ClosedRange<Foundation.Date>)
+  public mutating func appendInterpolation(_ interval: Foundation.DateInterval)
+  @available(iOS 16.0, *)
+  public mutating func appendInterpolation(timerInterval: Swift.ClosedRange<Foundation.Date>, pauseTime: Foundation.Date? = nil, countsDown: Swift.Bool = true, showsHours: Swift.Bool = true)
+}
