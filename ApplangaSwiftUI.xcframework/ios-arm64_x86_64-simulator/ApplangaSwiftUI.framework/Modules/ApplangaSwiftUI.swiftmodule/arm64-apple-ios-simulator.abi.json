@@ -5285,35 +5285,42 @@
     {
       "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "IntegerLiteral",
-      "offset": 5847,
+      "offset": 6006,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "IntegerLiteral",
-      "offset": 5870,
+      "offset": 6029,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
-      "offset": 6062,
+      "offset": 6221,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
+      "kind": "Array",
+      "offset": 6644,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
-      "offset": 11305,
+      "offset": 11949,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
-      "offset": 11330,
+      "offset": 11974,
       "length": 4,
       "value": "true"
     }
