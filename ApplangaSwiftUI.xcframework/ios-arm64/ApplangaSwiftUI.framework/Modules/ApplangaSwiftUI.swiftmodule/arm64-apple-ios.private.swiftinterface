@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ApplangaSwiftUI
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Applanga
@@ -95,6 +95,35 @@ extension SwiftUI.Toggle where Label == SwiftUI.Text {
 extension SwiftUI.Toggle where Label == SwiftUI.Text {
   public init<C>(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, sources: C, isOn: Swift.KeyPath<C.Element, SwiftUI.Binding<Swift.Bool>>) where C : Swift.RandomAccessCollection
   public init<C>(_ titleKey: Swift.String, sources: C, isOn: Swift.KeyPath<C.Element, SwiftUI.Binding<Swift.Bool>>) where C : Swift.RandomAccessCollection
+}
+@available(iOS 14.0, *)
+extension SwiftUI.DisclosureGroup where Label == SwiftUI.Text {
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, @SwiftUI.ViewBuilder content: @escaping () -> Content)
+  public init(_ titleKey: Swift.String, @SwiftUI.ViewBuilder content: @escaping () -> Content)
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, isExpanded: SwiftUI.Binding<Swift.Bool>, @SwiftUI.ViewBuilder content: @escaping () -> Content)
+  public init(_ titleKey: Swift.String, isExpanded: SwiftUI.Binding<Swift.Bool>, @SwiftUI.ViewBuilder content: @escaping () -> Content)
+}
+@available(iOS 15.0, *)
+extension SwiftUI.GroupBox where Label == SwiftUI.Text {
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, @SwiftUI.ViewBuilder content: () -> Content)
+  public init(_ titleKey: Swift.String, @SwiftUI.ViewBuilder content: () -> Content)
+}
+extension SwiftUI.View {
+  public func navigationBarTitle(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, displayMode: SwiftUI.NavigationBarItem.TitleDisplayMode) -> some SwiftUI.View
+  
+  public func navigationBarTitle(_ titleKey: Swift.String, displayMode: SwiftUI.NavigationBarItem.TitleDisplayMode) -> some SwiftUI.View
+  
+  public func navigationBarTitle(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey) -> some SwiftUI.View
+  
+  public func navigationBarTitle(_ titleKey: Swift.String) -> some SwiftUI.View
+  
+}
+@available(iOS 14.0, *)
+extension SwiftUI.View {
+  public func navigationTitle(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey) -> some SwiftUI.View
+  
+  public func navigationTitle(_ titleKey: Swift.String) -> some SwiftUI.View
+  
 }
 @available(iOS 15, *)
 public protocol ApplanagaAttributedStringProtocol {

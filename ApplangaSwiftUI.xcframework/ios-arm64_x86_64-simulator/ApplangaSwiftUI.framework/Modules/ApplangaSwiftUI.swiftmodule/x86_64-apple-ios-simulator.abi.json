@@ -3956,6 +3956,723 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "DisclosureGroup",
+        "printedName": "DisclosureGroup",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DisclosureGroup",
+                "printedName": "SwiftUI.DisclosureGroup<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:7SwiftUI15DisclosureGroupV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ApplangaLocalizedStringKey",
+                "printedName": "ApplangaSwiftUI.ApplangaLocalizedStringKey",
+                "usr": "s:15ApplangaSwiftUI0A18LocalizedStringKeyV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI15DisclosureGroupV08ApplangaaB0AA4TextVRszrlE_7contentACyAFq_GAD0E18LocalizedStringKeyV_q_yctcfc",
+            "mangledName": "$s7SwiftUI15DisclosureGroupV08ApplangaaB0AA4TextVRszrlE_7contentACyAFq_GAD0E18LocalizedStringKeyV_q_yctcfc",
+            "moduleName": "ApplangaSwiftUI",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == SwiftUI.Text, τ_0_1 : SwiftUI.View>",
+            "sugared_genericSig": "<Label, Content where Label == SwiftUI.Text, Content : SwiftUI.View>",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DisclosureGroup",
+                "printedName": "SwiftUI.DisclosureGroup<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:7SwiftUI15DisclosureGroupV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI15DisclosureGroupV08ApplangaaB0AA4TextVRszrlE_7contentACyAFq_GSS_q_yctcfc",
+            "mangledName": "$s7SwiftUI15DisclosureGroupV08ApplangaaB0AA4TextVRszrlE_7contentACyAFq_GSS_q_yctcfc",
+            "moduleName": "ApplangaSwiftUI",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == SwiftUI.Text, τ_0_1 : SwiftUI.View>",
+            "sugared_genericSig": "<Label, Content where Label == SwiftUI.Text, Content : SwiftUI.View>",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:isExpanded:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DisclosureGroup",
+                "printedName": "SwiftUI.DisclosureGroup<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:7SwiftUI15DisclosureGroupV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ApplangaLocalizedStringKey",
+                "printedName": "ApplangaSwiftUI.ApplangaLocalizedStringKey",
+                "usr": "s:15ApplangaSwiftUI0A18LocalizedStringKeyV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI15DisclosureGroupV08ApplangaaB0AA4TextVRszrlE_10isExpanded7contentACyAFq_GAD0E18LocalizedStringKeyV_AA7BindingVySbGq_yctcfc",
+            "mangledName": "$s7SwiftUI15DisclosureGroupV08ApplangaaB0AA4TextVRszrlE_10isExpanded7contentACyAFq_GAD0E18LocalizedStringKeyV_AA7BindingVySbGq_yctcfc",
+            "moduleName": "ApplangaSwiftUI",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == SwiftUI.Text, τ_0_1 : SwiftUI.View>",
+            "sugared_genericSig": "<Label, Content where Label == SwiftUI.Text, Content : SwiftUI.View>",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:isExpanded:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DisclosureGroup",
+                "printedName": "SwiftUI.DisclosureGroup<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:7SwiftUI15DisclosureGroupV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI15DisclosureGroupV08ApplangaaB0AA4TextVRszrlE_10isExpanded7contentACyAFq_GSS_AA7BindingVySbGq_yctcfc",
+            "mangledName": "$s7SwiftUI15DisclosureGroupV08ApplangaaB0AA4TextVRszrlE_10isExpanded7contentACyAFq_GSS_AA7BindingVySbGq_yctcfc",
+            "moduleName": "ApplangaSwiftUI",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == SwiftUI.Text, τ_0_1 : SwiftUI.View>",
+            "sugared_genericSig": "<Label, Content where Label == SwiftUI.Text, Content : SwiftUI.View>",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftUI15DisclosureGroupV",
+        "mangledName": "$s7SwiftUI15DisclosureGroupV",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : SwiftUI.View, τ_0_1 : SwiftUI.View>",
+        "sugared_genericSig": "<Label, Content where Label : SwiftUI.View, Content : SwiftUI.View>",
+        "intro_Macosx": "11.0",
+        "intro_iOS": "14.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GroupBox",
+        "printedName": "GroupBox",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroupBox",
+                "printedName": "SwiftUI.GroupBox<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:7SwiftUI8GroupBoxV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ApplangaLocalizedStringKey",
+                "printedName": "ApplangaSwiftUI.ApplangaLocalizedStringKey",
+                "usr": "s:15ApplangaSwiftUI0A18LocalizedStringKeyV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI8GroupBoxV08ApplangaaB0AA4TextVRszrlE_7contentACyAFq_GAD0E18LocalizedStringKeyV_q_yXEtcfc",
+            "mangledName": "$s7SwiftUI8GroupBoxV08ApplangaaB0AA4TextVRszrlE_7contentACyAFq_GAD0E18LocalizedStringKeyV_q_yXEtcfc",
+            "moduleName": "ApplangaSwiftUI",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == SwiftUI.Text, τ_0_1 : SwiftUI.View>",
+            "sugared_genericSig": "<Label, Content where Label == SwiftUI.Text, Content : SwiftUI.View>",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroupBox",
+                "printedName": "SwiftUI.GroupBox<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:7SwiftUI8GroupBoxV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI8GroupBoxV08ApplangaaB0AA4TextVRszrlE_7contentACyAFq_GSS_q_yXEtcfc",
+            "mangledName": "$s7SwiftUI8GroupBoxV08ApplangaaB0AA4TextVRszrlE_7contentACyAFq_GSS_q_yXEtcfc",
+            "moduleName": "ApplangaSwiftUI",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == SwiftUI.Text, τ_0_1 : SwiftUI.View>",
+            "sugared_genericSig": "<Label, Content where Label == SwiftUI.Text, Content : SwiftUI.View>",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftUI8GroupBoxV",
+        "mangledName": "$s7SwiftUI8GroupBoxV",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : SwiftUI.View, τ_0_1 : SwiftUI.View>",
+        "sugared_genericSig": "<Label, Content where Label : SwiftUI.View, Content : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "14.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "navigationBarTitle",
+            "printedName": "navigationBarTitle(_:displayMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ApplangaLocalizedStringKey",
+                "printedName": "ApplangaSwiftUI.ApplangaLocalizedStringKey",
+                "usr": "s:15ApplangaSwiftUI0A18LocalizedStringKeyV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TitleDisplayMode",
+                "printedName": "SwiftUI.NavigationBarItem.TitleDisplayMode",
+                "usr": "s:7SwiftUI17NavigationBarItemV16TitleDisplayModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP08ApplangaaB0E18navigationBarTitle_11displayModeQrAD0D18LocalizedStringKeyV_AA010NavigationF4ItemV0g7DisplayI0OtF",
+            "mangledName": "$s7SwiftUI4ViewP08ApplangaaB0E18navigationBarTitle_11displayModeQrAD0D18LocalizedStringKeyV_AA010NavigationF4ItemV0g7DisplayI0OtF",
+            "moduleName": "ApplangaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "navigationBarTitle",
+            "printedName": "navigationBarTitle(_:displayMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TitleDisplayMode",
+                "printedName": "SwiftUI.NavigationBarItem.TitleDisplayMode",
+                "usr": "s:7SwiftUI17NavigationBarItemV16TitleDisplayModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP08ApplangaaB0E18navigationBarTitle_11displayModeQrSS_AA010NavigationF4ItemV0g7DisplayI0OtF",
+            "mangledName": "$s7SwiftUI4ViewP08ApplangaaB0E18navigationBarTitle_11displayModeQrSS_AA010NavigationF4ItemV0g7DisplayI0OtF",
+            "moduleName": "ApplangaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "navigationBarTitle",
+            "printedName": "navigationBarTitle(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ApplangaLocalizedStringKey",
+                "printedName": "ApplangaSwiftUI.ApplangaLocalizedStringKey",
+                "usr": "s:15ApplangaSwiftUI0A18LocalizedStringKeyV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP08ApplangaaB0E18navigationBarTitleyQrAD0D18LocalizedStringKeyVF",
+            "mangledName": "$s7SwiftUI4ViewP08ApplangaaB0E18navigationBarTitleyQrAD0D18LocalizedStringKeyVF",
+            "moduleName": "ApplangaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "navigationBarTitle",
+            "printedName": "navigationBarTitle(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP08ApplangaaB0E18navigationBarTitleyQrSSF",
+            "mangledName": "$s7SwiftUI4ViewP08ApplangaaB0E18navigationBarTitleyQrSSF",
+            "moduleName": "ApplangaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "navigationTitle",
+            "printedName": "navigationTitle(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ApplangaLocalizedStringKey",
+                "printedName": "ApplangaSwiftUI.ApplangaLocalizedStringKey",
+                "usr": "s:15ApplangaSwiftUI0A18LocalizedStringKeyV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP08ApplangaaB0E15navigationTitleyQrAD0D18LocalizedStringKeyVF",
+            "mangledName": "$s7SwiftUI4ViewP08ApplangaaB0E15navigationTitleyQrAD0D18LocalizedStringKeyVF",
+            "moduleName": "ApplangaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "navigationTitle",
+            "printedName": "navigationTitle(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP08ApplangaaB0E15navigationTitleyQrSSF",
+            "mangledName": "$s7SwiftUI4ViewP08ApplangaaB0E15navigationTitleyQrSSF",
+            "moduleName": "ApplangaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "TypeEraser",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
+      },
+      {
+        "kind": "TypeDecl",
         "name": "AttributedString",
         "printedName": "AttributedString",
         "children": [
@@ -5243,28 +5960,28 @@
     {
       "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI.swift",
       "kind": "Array",
-      "offset": 13125,
+      "offset": 15418,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI.swift",
       "kind": "Array",
-      "offset": 13312,
+      "offset": 15605,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI.swift",
       "kind": "Array",
-      "offset": 13547,
+      "offset": 15840,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI.swift",
       "kind": "Array",
-      "offset": 13809,
+      "offset": 16102,
       "length": 2,
       "value": "[]"
     },
@@ -5274,6 +5991,55 @@
       "offset": 527,
       "length": 20,
       "value": "\"applanga-loc-error\""
+    },
+    {
+      "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 5,
+      "value": "\"key\""
+    },
+    {
+      "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1207,
+      "length": 11,
+      "value": "\"arguments\""
+    },
+    {
+      "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1448,
+      "length": 9,
+      "value": "\"storage\""
+    },
+    {
+      "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1561,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1851,
+      "length": 4,
+      "value": "\".0\""
+    },
+    {
+      "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
+      "kind": "Array",
+      "offset": 1913,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2224,
+      "length": 10,
+      "value": "\"_storage\""
     },
     {
       "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
@@ -5312,6 +6078,48 @@
     },
     {
       "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7086,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7109,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8816,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9980,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10711,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10944,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
       "offset": 11949,
       "length": 4,
@@ -5323,6 +6131,13 @@
       "offset": 11974,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/simonborkin\/Projects\/applanga-web\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUILocalization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1298,
+      "length": 1,
+      "value": "0"
     }
   ]
 }

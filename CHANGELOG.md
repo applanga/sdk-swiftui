@@ -5,6 +5,10 @@
 *Applanga iOS Documentation:* <https://www.applanga.com/docs-integration/ios> 
 ***
 
+### Version 2.0.171 (25 May 2023)
+#### Fixed
+- add support for additional swiftUI components
+
 ### Version 2.0.170 (28 Mar 2023)
 #### Fixed
 - fix DefaultStringInterpolation result having format symbols instead of actual values
