@@ -1,6 +1,6 @@
 # Applanga SwiftUI SDK for iOS Localization
 ***
-*Version:* 2.0.173
+*Version:* 2.0.174
 
 *Website:* <https://www.applanga.com> 
 

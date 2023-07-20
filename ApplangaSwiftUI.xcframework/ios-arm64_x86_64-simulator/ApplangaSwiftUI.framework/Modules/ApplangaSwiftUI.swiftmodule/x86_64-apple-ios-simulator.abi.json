@@ -5993,6 +5993,55 @@
       "value": "\"applanga-loc-error\""
     },
     {
+      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 5,
+      "value": "\"key\""
+    },
+    {
+      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1207,
+      "length": 11,
+      "value": "\"arguments\""
+    },
+    {
+      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1448,
+      "length": 9,
+      "value": "\"storage\""
+    },
+    {
+      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1561,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1851,
+      "length": 4,
+      "value": "\".0\""
+    },
+    {
+      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
+      "kind": "Array",
+      "offset": 1913,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2224,
+      "length": 10,
+      "value": "\"_storage\""
+    },
+    {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "StringLiteral",
       "offset": 210,
@@ -6029,6 +6078,48 @@
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7086,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7109,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8816,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9980,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10711,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10944,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
       "offset": 11949,
       "length": 4,
@@ -6040,6 +6131,13 @@
       "offset": 11974,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUILocalization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1298,
+      "length": 1,
+      "value": "0"
     }
   ]
 }

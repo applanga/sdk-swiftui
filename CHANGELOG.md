@@ -5,7 +5,7 @@
 *Applanga iOS Documentation:* <https://www.applanga.com/docs-integration/ios> 
 ***
 
-### Version 2.0.173 (29 Jun 2023)
+### Version 2.0.174 (20 Jul 2023)
 #### Fixed
 - fix DefaultStringInterpolation result having format symbols instead of actual values
 
