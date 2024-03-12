@@ -5,9 +5,12 @@
 *Applanga iOS Documentation:* <https://www.applanga.com/docs-integration/ios> 
 ***
 
-### Version 2.0.182 (15 Feb 2024)
+### Version 2.0.184 (12 Mar 2024)
 #### Added
 - updated the base applanga sdk version
+
+#### Fixed
+- possible placeholder crash while being in draftmode
 
 ---
 #### Version 2.0.181 (25 Jan 2024)
