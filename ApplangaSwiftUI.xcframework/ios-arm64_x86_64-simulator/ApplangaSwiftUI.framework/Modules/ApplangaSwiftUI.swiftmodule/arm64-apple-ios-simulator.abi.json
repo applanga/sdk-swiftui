@@ -3248,177 +3248,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Menu",
-        "printedName": "Menu",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(_:content:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Menu",
-                "printedName": "SwiftUI.Menu<τ_0_0, τ_0_1>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_1"
-                  }
-                ],
-                "usr": "s:7SwiftUI4MenuV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ApplangaLocalizedStringKey",
-                "printedName": "ApplangaSwiftUI.ApplangaLocalizedStringKey",
-                "usr": "s:15ApplangaSwiftUI0A18LocalizedStringKeyV"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> τ_0_1",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_1"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "typeAttributes": [
-                  "noescape"
-                ]
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:7SwiftUI4MenuV08ApplangaaB0AA4TextVRszrlE_7contentACyAFq_GAD0D18LocalizedStringKeyV_q_yXEtcfc",
-            "mangledName": "$s7SwiftUI4MenuV08ApplangaaB0AA4TextVRszrlE_7contentACyAFq_GAD0D18LocalizedStringKeyV_q_yXEtcfc",
-            "moduleName": "ApplangaSwiftUI",
-            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == SwiftUI.Text, τ_0_1 : SwiftUI.View>",
-            "sugared_genericSig": "<Label, Content where Label == SwiftUI.Text, Content : SwiftUI.View>",
-            "isFromExtension": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(_:content:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Menu",
-                "printedName": "SwiftUI.Menu<τ_0_0, τ_0_1>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_1"
-                  }
-                ],
-                "usr": "s:7SwiftUI4MenuV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> τ_0_1",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_1"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "typeAttributes": [
-                  "noescape"
-                ]
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:7SwiftUI4MenuV08ApplangaaB0AA4TextVRszrlE_7contentACyAFq_GSS_q_yXEtcfc",
-            "mangledName": "$s7SwiftUI4MenuV08ApplangaaB0AA4TextVRszrlE_7contentACyAFq_GSS_q_yXEtcfc",
-            "moduleName": "ApplangaSwiftUI",
-            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == SwiftUI.Text, τ_0_1 : SwiftUI.View>",
-            "sugared_genericSig": "<Label, Content where Label == SwiftUI.Text, Content : SwiftUI.View>",
-            "isFromExtension": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:7SwiftUI4MenuV",
-        "mangledName": "$s7SwiftUI4MenuV",
-        "moduleName": "SwiftUI",
-        "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : SwiftUI.View, τ_0_1 : SwiftUI.View>",
-        "sugared_genericSig": "<Label, Content where Label : SwiftUI.View, Content : SwiftUI.View>",
-        "intro_Macosx": "11.0",
-        "intro_iOS": "14.0",
-        "declAttributes": [
-          "Available",
-          "Available",
-          "Available",
-          "Available"
-        ],
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "ModifiedContent",
         "printedName": "ModifiedContent",
         "children": [
@@ -3915,6 +3744,177 @@
         "intro_iOS": "13.0",
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Menu",
+        "printedName": "Menu",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Menu",
+                "printedName": "SwiftUI.Menu<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:7SwiftUI4MenuV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ApplangaLocalizedStringKey",
+                "printedName": "ApplangaSwiftUI.ApplangaLocalizedStringKey",
+                "usr": "s:15ApplangaSwiftUI0A18LocalizedStringKeyV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI4MenuV08ApplangaaB0AA4TextVRszrlE_7contentACyAFq_GAD0D18LocalizedStringKeyV_q_yXEtcfc",
+            "mangledName": "$s7SwiftUI4MenuV08ApplangaaB0AA4TextVRszrlE_7contentACyAFq_GAD0D18LocalizedStringKeyV_q_yXEtcfc",
+            "moduleName": "ApplangaSwiftUI",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == SwiftUI.Text, τ_0_1 : SwiftUI.View>",
+            "sugared_genericSig": "<Label, Content where Label == SwiftUI.Text, Content : SwiftUI.View>",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Menu",
+                "printedName": "SwiftUI.Menu<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:7SwiftUI4MenuV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI4MenuV08ApplangaaB0AA4TextVRszrlE_7contentACyAFq_GSS_q_yXEtcfc",
+            "mangledName": "$s7SwiftUI4MenuV08ApplangaaB0AA4TextVRszrlE_7contentACyAFq_GSS_q_yXEtcfc",
+            "moduleName": "ApplangaSwiftUI",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == SwiftUI.Text, τ_0_1 : SwiftUI.View>",
+            "sugared_genericSig": "<Label, Content where Label == SwiftUI.Text, Content : SwiftUI.View>",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftUI4MenuV",
+        "mangledName": "$s7SwiftUI4MenuV",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : SwiftUI.View, τ_0_1 : SwiftUI.View>",
+        "sugared_genericSig": "<Label, Content where Label : SwiftUI.View, Content : SwiftUI.View>",
+        "intro_Macosx": "11.0",
+        "intro_iOS": "14.0",
         "declAttributes": [
           "Available",
           "Available",
@@ -5946,42 +5946,42 @@
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI.swift",
       "kind": "BooleanLiteral",
-      "offset": 7655,
+      "offset": 7667,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI.swift",
       "kind": "BooleanLiteral",
-      "offset": 7857,
+      "offset": 7869,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI.swift",
       "kind": "Array",
-      "offset": 15418,
+      "offset": 15478,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI.swift",
       "kind": "Array",
-      "offset": 15605,
+      "offset": 15665,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI.swift",
       "kind": "Array",
-      "offset": 15840,
+      "offset": 15900,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI.swift",
       "kind": "Array",
-      "offset": 16102,
+      "offset": 16162,
       "length": 2,
       "value": "[]"
     },
@@ -6043,99 +6043,99 @@
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
-      "kind": "StringLiteral",
-      "offset": 210,
-      "length": 58,
-      "value": "\"stringInterpolationAssociatedObjectKey_baseInterpolation\""
-    },
-    {
-      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "IntegerLiteral",
-      "offset": 6006,
+      "offset": 217,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "IntegerLiteral",
-      "offset": 6029,
+      "offset": 5956,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5979,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
-      "offset": 6221,
+      "offset": 6171,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "Array",
-      "offset": 6644,
+      "offset": 6594,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "IntegerLiteral",
-      "offset": 7086,
+      "offset": 7036,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "IntegerLiteral",
-      "offset": 7109,
+      "offset": 7059,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
-      "offset": 8816,
+      "offset": 8766,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
-      "offset": 9980,
+      "offset": 9930,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
-      "offset": 10711,
+      "offset": 10661,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
-      "offset": 10944,
+      "offset": 10894,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
-      "offset": 11949,
+      "offset": 11899,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
-      "offset": 11974,
+      "offset": 11924,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUILocalization.swift",
       "kind": "IntegerLiteral",
-      "offset": 1298,
+      "offset": 1299,
       "length": 1,
       "value": "0"
     }

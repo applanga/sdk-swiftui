@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ApplangaSwiftUI
+// swift-module-flags: -target x86_64-apple-tvos16.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ApplangaSwiftUI
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Applanga
 import Foundation
@@ -57,11 +57,6 @@ extension SwiftUI.Button where Label == SwiftUI.Text {
   public init(_ titleKey: Swift.String, action: @escaping () -> Swift.Void)
 }
 @available(iOS 14.0, *)
-extension SwiftUI.ColorPicker where Label == SwiftUI.Text {
-  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, selection: SwiftUI.Binding<SwiftUI.Color>, supportsOpacity: Swift.Bool = true)
-  public init(_ titleKey: Swift.String, selection: SwiftUI.Binding<SwiftUI.Color>, supportsOpacity: Swift.Bool = true)
-}
-@available(iOS 14.0, *)
 extension SwiftUI.Label where Title == SwiftUI.Text, Icon == SwiftUI.Image {
   public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, image name: Swift.String)
   public init(_ titleKey: Swift.String, image name: Swift.String)
@@ -90,29 +85,6 @@ extension SwiftUI.Toggle where Label == SwiftUI.Text {
 extension SwiftUI.Toggle where Label == SwiftUI.Text {
   public init<C>(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, sources: C, isOn: Swift.KeyPath<C.Element, SwiftUI.Binding<Swift.Bool>>) where C : Swift.RandomAccessCollection
   public init<C>(_ titleKey: Swift.String, sources: C, isOn: Swift.KeyPath<C.Element, SwiftUI.Binding<Swift.Bool>>) where C : Swift.RandomAccessCollection
-}
-@available(iOS 14.0, *)
-extension SwiftUI.Menu where Label == SwiftUI.Text {
-  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, @SwiftUI.ViewBuilder content: () -> Content)
-  public init(_ titleKey: Swift.String, @SwiftUI.ViewBuilder content: () -> Content)
-}
-@available(iOS 14.0, *)
-extension SwiftUI.DisclosureGroup where Label == SwiftUI.Text {
-  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, @SwiftUI.ViewBuilder content: @escaping () -> Content)
-  public init(_ titleKey: Swift.String, @SwiftUI.ViewBuilder content: @escaping () -> Content)
-  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, isExpanded: SwiftUI.Binding<Swift.Bool>, @SwiftUI.ViewBuilder content: @escaping () -> Content)
-  public init(_ titleKey: Swift.String, isExpanded: SwiftUI.Binding<Swift.Bool>, @SwiftUI.ViewBuilder content: @escaping () -> Content)
-}
-@available(iOS 15.0, *)
-extension SwiftUI.GroupBox where Label == SwiftUI.Text {
-  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, @SwiftUI.ViewBuilder content: () -> Content)
-  public init(_ titleKey: Swift.String, @SwiftUI.ViewBuilder content: () -> Content)
-}
-extension SwiftUI.View {
-  public func navigationBarTitle(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, displayMode: SwiftUI.NavigationBarItem.TitleDisplayMode) -> some SwiftUI.View
-  
-  public func navigationBarTitle(_ titleKey: Swift.String, displayMode: SwiftUI.NavigationBarItem.TitleDisplayMode) -> some SwiftUI.View
-  
 }
 extension SwiftUI.View {
   public func navigationBarTitle(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey) -> some SwiftUI.View

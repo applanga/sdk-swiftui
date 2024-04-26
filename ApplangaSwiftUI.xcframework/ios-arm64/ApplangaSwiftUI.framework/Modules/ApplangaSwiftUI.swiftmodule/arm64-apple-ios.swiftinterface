@@ -79,11 +79,6 @@ extension SwiftUI.Link where Label == SwiftUI.Text {
   public init(_ titleKey: Swift.String, destination: Foundation.URL)
 }
 @available(iOS 14.0, *)
-extension SwiftUI.Menu where Label == SwiftUI.Text {
-  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, @SwiftUI.ViewBuilder content: () -> Content)
-  public init(_ titleKey: Swift.String, @SwiftUI.ViewBuilder content: () -> Content)
-}
-@available(iOS 14.0, *)
 extension SwiftUI.ModifiedContent where Modifier == SwiftUI.AccessibilityAttachmentModifier {
   public func accessibilityAction(named nameKey: Swift.String, _ handler: @escaping () -> Swift.Void) -> SwiftUI.ModifiedContent<Content, Modifier>
 }
@@ -95,6 +90,11 @@ extension SwiftUI.Toggle where Label == SwiftUI.Text {
 extension SwiftUI.Toggle where Label == SwiftUI.Text {
   public init<C>(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, sources: C, isOn: Swift.KeyPath<C.Element, SwiftUI.Binding<Swift.Bool>>) where C : Swift.RandomAccessCollection
   public init<C>(_ titleKey: Swift.String, sources: C, isOn: Swift.KeyPath<C.Element, SwiftUI.Binding<Swift.Bool>>) where C : Swift.RandomAccessCollection
+}
+@available(iOS 14.0, *)
+extension SwiftUI.Menu where Label == SwiftUI.Text {
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, @SwiftUI.ViewBuilder content: () -> Content)
+  public init(_ titleKey: Swift.String, @SwiftUI.ViewBuilder content: () -> Content)
 }
 @available(iOS 14.0, *)
 extension SwiftUI.DisclosureGroup where Label == SwiftUI.Text {
@@ -113,6 +113,8 @@ extension SwiftUI.View {
   
   public func navigationBarTitle(_ titleKey: Swift.String, displayMode: SwiftUI.NavigationBarItem.TitleDisplayMode) -> some SwiftUI.View
   
+}
+extension SwiftUI.View {
   public func navigationBarTitle(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey) -> some SwiftUI.View
   
   public func navigationBarTitle(_ titleKey: Swift.String) -> some SwiftUI.View

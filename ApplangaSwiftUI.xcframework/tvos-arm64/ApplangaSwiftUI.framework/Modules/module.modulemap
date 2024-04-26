@@ -1,0 +1,4 @@
+framework module ApplangaSwiftUI {
+  header "ApplangaSwiftUI-Swift.h"
+  requires objc
+}
