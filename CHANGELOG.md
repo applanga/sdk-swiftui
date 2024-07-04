@@ -5,10 +5,16 @@
 *Applanga iOS Documentation:* <https://www.applanga.com/docs-integration/ios> 
 ***
 
+### Version 2.0.194 (4 Jul 2024)
+#### Fixed
+- MAU request
+
+---
 ### Version 2.0.193 (20 Jun 2024)
 #### Added
 - updated the base applanga sdk version
 
+---
 ### Version 2.0.191 (13 May 2024)
 #### Added
 - tvos draft mode support
