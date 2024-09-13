@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "ApplangaSwiftUI",
+    "printedName": "ApplangaSwiftUI",
     "children": [
       {
         "kind": "Import",
@@ -204,6 +204,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ExpressibleByStringInterpolation",
             "printedName": "ExpressibleByStringInterpolation",
             "children": [
@@ -365,6 +379,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -866,6 +896,22 @@
           "AccessControl",
           "Available",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -899,6 +945,13 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ApplangaSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUICore",
+        "printedName": "SwiftUICore",
         "declKind": "Import",
         "moduleName": "ApplangaSwiftUI"
       },
@@ -1080,6 +1133,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "ExpressibleByStringInterpolation",
                 "printedName": "ExpressibleByStringInterpolation",
                 "children": [
@@ -1174,10 +1241,25 @@
         "mangledName": "$sSS",
         "moduleName": "Swift",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -1717,12 +1799,6 @@
                         "name": "TransferRepresentation",
                         "printedName": "CoreTransferable.TransferRepresentation",
                         "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
                       }
                     ]
                   }
@@ -1806,13 +1882,17 @@
         "declKind": "Struct",
         "usr": "s:7SwiftUI4TextV",
         "mangledName": "$s7SwiftUI4TextV",
-        "moduleName": "SwiftUI",
+        "moduleName": "SwiftUICore",
         "intro_Macosx": "10.15",
         "intro_iOS": "13.0",
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
           "Frozen",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
           "Available",
           "Available",
           "Available",
@@ -1826,6 +1906,27 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1914,6 +2015,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -1968,6 +2073,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -2036,6 +2145,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -2104,6 +2217,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -2166,6 +2283,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -2228,6 +2349,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -2277,6 +2402,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -2328,6 +2455,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -2345,10 +2474,12 @@
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "Available",
           "Available",
-          "Available"
+          "Available",
+          "Custom"
         ],
         "isExternal": true,
         "conformances": [
@@ -2380,6 +2511,27 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -2436,6 +2588,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -2487,6 +2643,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           }
@@ -2502,10 +2662,12 @@
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "Available",
           "Available",
-          "Available"
+          "Available",
+          "Custom"
         ],
         "isExternal": true,
         "conformances": [
@@ -2537,6 +2699,27 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -2587,6 +2770,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == SwiftUI.Text, τ_0_1 == SwiftUI.Image>",
             "sugared_genericSig": "<Title, Icon where Title == SwiftUI.Text, Icon == SwiftUI.Image>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -2632,6 +2819,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == SwiftUI.Text, τ_0_1 == SwiftUI.Image>",
             "sugared_genericSig": "<Title, Icon where Title == SwiftUI.Text, Icon == SwiftUI.Image>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -2677,6 +2868,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == SwiftUI.Text, τ_0_1 == SwiftUI.Image>",
             "sugared_genericSig": "<Title, Icon where Title == SwiftUI.Text, Icon == SwiftUI.Image>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -2722,6 +2917,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == SwiftUI.Text, τ_0_1 == SwiftUI.Image>",
             "sugared_genericSig": "<Title, Icon where Title == SwiftUI.Text, Icon == SwiftUI.Image>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           }
@@ -2737,10 +2936,12 @@
         "intro_tvOS": "14.0",
         "intro_watchOS": "7.0",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "Available",
           "Available",
-          "Available"
+          "Available",
+          "Custom"
         ],
         "isExternal": true,
         "conformances": [
@@ -2772,6 +2973,27 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -2919,6 +3141,27 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "View",
             "printedName": "View",
             "children": [
@@ -2990,6 +3233,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -3030,6 +3277,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           }
@@ -3045,10 +3296,12 @@
         "intro_tvOS": "14.0",
         "intro_watchOS": "7.0",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "Available",
           "Available",
-          "Available"
+          "Available",
+          "Custom"
         ],
         "isExternal": true,
         "conformances": [
@@ -3080,6 +3333,27 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -3148,7 +3422,7 @@
         "declKind": "Struct",
         "usr": "s:7SwiftUI15ModifiedContentV",
         "mangledName": "$s7SwiftUI15ModifiedContentV",
-        "moduleName": "SwiftUI",
+        "moduleName": "SwiftUICore",
         "genericSig": "<τ_0_0, τ_0_1>",
         "sugared_genericSig": "<Content, Modifier>",
         "intro_Macosx": "10.15",
@@ -3157,6 +3431,10 @@
         "intro_watchOS": "6.0",
         "declAttributes": [
           "Frozen",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
           "Available",
           "Available",
           "Available",
@@ -3166,68 +3444,24 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "DynamicViewContent",
-            "printedName": "DynamicViewContent",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Data",
-                "printedName": "Data",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DependentMember",
-                    "printedName": "τ_0_0.Data"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI18DynamicViewContentP",
-            "mangledName": "$s7SwiftUI18DynamicViewContentP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "Scene",
-            "printedName": "Scene",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI5SceneP",
-            "mangledName": "$s7SwiftUI5SceneP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
-            "name": "_SceneModifier",
-            "printedName": "_SceneModifier",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI14_SceneModifierP",
-            "mangledName": "$s7SwiftUI14_SceneModifierP"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -3279,6 +3513,93 @@
             ],
             "usr": "s:7SwiftUI12ViewModifierP",
             "mangledName": "$s7SwiftUI12ViewModifierP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DynamicViewContent",
+            "printedName": "DynamicViewContent",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Data",
+                "printedName": "Data",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Data"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18DynamicViewContentP",
+            "mangledName": "$s7SwiftUI18DynamicViewContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomHoverEffect",
+            "printedName": "CustomHoverEffect",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI17CustomHoverEffectP",
+            "mangledName": "$s7SwiftUI17CustomHoverEffectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Scene",
+            "printedName": "Scene",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI5SceneP",
+            "mangledName": "$s7SwiftUI5SceneP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_SceneModifier",
+            "printedName": "_SceneModifier",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI14_SceneModifierP",
+            "mangledName": "$s7SwiftUI14_SceneModifierP"
           }
         ]
       },
@@ -3332,6 +3653,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -3380,6 +3705,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -3446,6 +3775,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 == SwiftUI.Text, τ_1_0 : Swift.RandomAccessCollection>",
             "sugared_genericSig": "<Label, C where Label == SwiftUI.Text, C : Swift.RandomAccessCollection>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -3512,6 +3845,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 == SwiftUI.Text, τ_1_0 : Swift.RandomAccessCollection>",
             "sugared_genericSig": "<Label, C where Label == SwiftUI.Text, C : Swift.RandomAccessCollection>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           }
@@ -3527,10 +3864,12 @@
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "Available",
           "Available",
-          "Available"
+          "Available",
+          "Custom"
         ],
         "isExternal": true,
         "conformances": [
@@ -3562,6 +3901,27 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -3601,6 +3961,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -3635,6 +3999,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -3669,6 +4037,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -3703,6 +4075,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -3710,7 +4086,7 @@
         "declKind": "Protocol",
         "usr": "s:7SwiftUI4ViewP",
         "mangledName": "$s7SwiftUI4ViewP",
-        "moduleName": "SwiftUI",
+        "moduleName": "SwiftUICore",
         "genericSig": "<τ_0_0.Body : SwiftUI.View>",
         "sugared_genericSig": "<Self.Body : SwiftUI.View>",
         "intro_Macosx": "10.15",
@@ -3718,13 +4094,35 @@
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
+          "Preconcurrency",
           "TypeEraser",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
           "Available",
           "Available",
           "Available",
-          "Available"
+          "Available",
+          "Custom"
         ],
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -4219,38 +4617,24 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "AttributedStringProtocol",
-            "printedName": "AttributedStringProtocol",
-            "usr": "s:10Foundation24AttributedStringProtocolP",
-            "mangledName": "$s10Foundation24AttributedStringProtocolP"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
-            "name": "AttributedStringAttributeMutation",
-            "printedName": "AttributedStringAttributeMutation",
-            "usr": "s:10Foundation33AttributedStringAttributeMutationP",
-            "mangledName": "$s10Foundation33AttributedStringAttributeMutationP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4258,64 +4642,6 @@
             "printedName": "ApplanagaAttributedStringProtocol",
             "usr": "s:15ApplangaSwiftUI33ApplanagaAttributedStringProtocolP",
             "mangledName": "$s15ApplangaSwiftUI33ApplanagaAttributedStringProtocolP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "DecodableWithConfiguration",
-            "printedName": "DecodableWithConfiguration",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "DecodingConfiguration",
-                "printedName": "DecodingConfiguration",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AttributeScopeCodableConfiguration",
-                    "printedName": "Foundation.AttributeScopeCodableConfiguration",
-                    "usr": "s:10Foundation34AttributeScopeCodableConfigurationV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation26DecodableWithConfigurationP",
-            "mangledName": "$s10Foundation26DecodableWithConfigurationP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "EncodableWithConfiguration",
-            "printedName": "EncodableWithConfiguration",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "EncodingConfiguration",
-                "printedName": "EncodingConfiguration",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AttributeScopeCodableConfiguration",
-                    "printedName": "Foundation.AttributeScopeCodableConfiguration",
-                    "usr": "s:10Foundation34AttributeScopeCodableConfigurationV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation26EncodableWithConfigurationP",
-            "mangledName": "$s10Foundation26EncodableWithConfigurationP"
           },
           {
             "kind": "Conformance",
@@ -4385,10 +4711,96 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
+            "name": "AttributedStringProtocol",
+            "printedName": "AttributedStringProtocol",
+            "usr": "s:10Foundation24AttributedStringProtocolP",
+            "mangledName": "$s10Foundation24AttributedStringProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AttributedStringAttributeMutation",
+            "printedName": "AttributedStringAttributeMutation",
+            "usr": "s:10Foundation33AttributedStringAttributeMutationP",
+            "mangledName": "$s10Foundation33AttributedStringAttributeMutationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DecodableWithConfiguration",
+            "printedName": "DecodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "DecodingConfiguration",
+                "printedName": "DecodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AttributeScopeCodableConfiguration",
+                    "printedName": "Foundation.AttributeScopeCodableConfiguration",
+                    "usr": "s:10Foundation34AttributeScopeCodableConfigurationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26DecodableWithConfigurationP",
+            "mangledName": "$s10Foundation26DecodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "EncodableWithConfiguration",
+            "printedName": "EncodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "EncodingConfiguration",
+                "printedName": "EncodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AttributeScopeCodableConfiguration",
+                    "printedName": "Foundation.AttributeScopeCodableConfiguration",
+                    "usr": "s:10Foundation34AttributeScopeCodableConfigurationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26EncodableWithConfigurationP",
+            "mangledName": "$s10Foundation26EncodableWithConfigurationP"
           },
           {
             "kind": "Conformance",
@@ -4410,12 +4822,6 @@
                         "name": "TransferRepresentation",
                         "printedName": "CoreTransferable.TransferRepresentation",
                         "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
                       }
                     ]
                   }
@@ -4444,7 +4850,23 @@
               "RawDocComment"
             ],
             "isFromExtension": true,
-            "hasMissingDesignatedInitializers": true
+            "hasMissingDesignatedInitializers": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -4980,6 +5402,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -5034,151 +5470,53 @@
       "value": "\"applanga-loc-error\""
     },
     {
-      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 816,
-      "length": 5,
-      "value": "\"key\""
-    },
-    {
-      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1207,
-      "length": 11,
-      "value": "\"arguments\""
-    },
-    {
-      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1448,
-      "length": 9,
-      "value": "\"storage\""
-    },
-    {
-      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1561,
-      "length": 7,
-      "value": "\"value\""
-    },
-    {
-      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1851,
-      "length": 4,
-      "value": "\".0\""
-    },
-    {
-      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
-      "kind": "Array",
-      "offset": 1913,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUIMirrorHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2224,
-      "length": 10,
-      "value": "\"_storage\""
-    },
-    {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "IntegerLiteral",
-      "offset": 217,
+      "offset": 236,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "IntegerLiteral",
-      "offset": 5956,
+      "offset": 5975,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "IntegerLiteral",
-      "offset": 5979,
+      "offset": 5998,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
-      "offset": 6171,
+      "offset": 6190,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "Array",
-      "offset": 6594,
+      "offset": 6613,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7036,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7059,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
-      "offset": 8766,
+      "offset": 11930,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
-      "offset": 9930,
+      "offset": 11955,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10661,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10894,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11899,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11924,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ALSwiftUILocalization.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1299,
-      "length": 1,
-      "value": "0"
     }
   ]
 }
