@@ -7,6 +7,8 @@
 *Changelog:* <https://www.applanga.com/changelog/ios>
 ***
 
+#### NOTE: The latest version of the SDK currently only works for XCode 16. For Xcode 15 please use version 2.0.195
+***
 
 ## Table of Contents
 
