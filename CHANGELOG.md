@@ -5,6 +5,11 @@
 *Applanga iOS Documentation:* <https://www.applanga.com/docs-integration/ios> 
 ***
 
+### Version 2.0.197 (16 Sep 2024)
+#### Added
+- readme note about support for xcode versions below 16
+
+---
 ### Version 2.0.196 (13 Sep 2024)
 #### Fixed
 - xcode 16 build issues
