@@ -5,6 +5,11 @@
 *Applanga iOS Documentation:* <https://www.applanga.com/docs-integration/ios> 
 ***
 
+### Version 2.0.200 (9 Oct 2024)
+#### Added
+- privacy manifest in the base sdk
+
+---
 ### Version 2.0.198 (17 Sep 2024)
 #### Added
 - updated the base applanga sdk version
