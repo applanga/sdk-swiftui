@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ApplangaSwiftUI
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Applanga
@@ -40,35 +40,35 @@ extension SwiftUICore.Text : ApplangaSwiftUI.ApplanagaTextProtocol {
 }
 @available(iOS 16.0, *)
 extension SwiftUI.TextField where Label == SwiftUICore.Text {
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, text: SwiftUICore.Binding<Swift.String>, axis: SwiftUICore.Axis)
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: Swift.String, text: SwiftUICore.Binding<Swift.String>, axis: SwiftUICore.Axis)
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, text: SwiftUICore.Binding<Swift.String>, prompt: SwiftUICore.Text?, axis: SwiftUICore.Axis)
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: Swift.String, text: SwiftUICore.Binding<Swift.String>, prompt: SwiftUICore.Text?, axis: SwiftUICore.Axis)
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, text: SwiftUICore.Binding<Swift.String>, axis: SwiftUICore.Axis)
+  public init(_ titleKey: Swift.String, text: SwiftUICore.Binding<Swift.String>, axis: SwiftUICore.Axis)
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, text: SwiftUICore.Binding<Swift.String>, prompt: SwiftUICore.Text?, axis: SwiftUICore.Axis)
+  public init(_ titleKey: Swift.String, text: SwiftUICore.Binding<Swift.String>, prompt: SwiftUICore.Text?, axis: SwiftUICore.Axis)
 }
 @available(iOS 15.0, *)
 extension SwiftUI.TextField where Label == SwiftUICore.Text {
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, text: SwiftUICore.Binding<Swift.String>, prompt: SwiftUICore.Text?)
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: Swift.String, text: SwiftUICore.Binding<Swift.String>, prompt: SwiftUICore.Text?)
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, text: SwiftUICore.Binding<Swift.String>, prompt: SwiftUICore.Text?)
+  public init(_ titleKey: Swift.String, text: SwiftUICore.Binding<Swift.String>, prompt: SwiftUICore.Text?)
 }
 extension SwiftUI.TextField where Label == SwiftUICore.Text {
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, text: SwiftUICore.Binding<Swift.String>)
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: Swift.String, text: SwiftUICore.Binding<Swift.String>)
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, text: SwiftUICore.Binding<Swift.String>)
+  public init(_ titleKey: Swift.String, text: SwiftUICore.Binding<Swift.String>)
 }
 extension SwiftUI.Button where Label == SwiftUICore.Text {
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, action: @escaping () -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: Swift.String, action: @escaping () -> Swift.Void)
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, action: @escaping () -> Swift.Void)
+  public init(_ titleKey: Swift.String, action: @escaping () -> Swift.Void)
 }
 @available(iOS 14.0, *)
 extension SwiftUI.ColorPicker where Label == SwiftUICore.Text {
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, selection: SwiftUICore.Binding<SwiftUICore.Color>, supportsOpacity: Swift.Bool = true)
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: Swift.String, selection: SwiftUICore.Binding<SwiftUICore.Color>, supportsOpacity: Swift.Bool = true)
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, selection: SwiftUICore.Binding<SwiftUICore.Color>, supportsOpacity: Swift.Bool = true)
+  public init(_ titleKey: Swift.String, selection: SwiftUICore.Binding<SwiftUICore.Color>, supportsOpacity: Swift.Bool = true)
 }
 @available(iOS 14.0, *)
 extension SwiftUI.Label where Title == SwiftUICore.Text, Icon == SwiftUICore.Image {
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, image name: Swift.String)
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: Swift.String, image name: Swift.String)
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, systemImage name: Swift.String)
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: Swift.String, systemImage name: Swift.String)
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, image name: Swift.String)
+  public init(_ titleKey: Swift.String, image name: Swift.String)
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, systemImage name: Swift.String)
+  public init(_ titleKey: Swift.String, systemImage name: Swift.String)
 }
 @available(iOS 16.0, *)
 extension SwiftUI.LabeledContent where Label == SwiftUICore.Text, Content : SwiftUICore.View {
@@ -77,38 +77,38 @@ extension SwiftUI.LabeledContent where Label == SwiftUICore.Text, Content : Swif
 }
 @available(iOS 14.0, *)
 extension SwiftUI.Link where Label == SwiftUICore.Text {
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, destination: Foundation.URL)
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: Swift.String, destination: Foundation.URL)
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, destination: Foundation.URL)
+  public init(_ titleKey: Swift.String, destination: Foundation.URL)
 }
 @available(iOS 14.0, *)
 extension SwiftUICore.ModifiedContent where Modifier == SwiftUI.AccessibilityAttachmentModifier {
   public func accessibilityAction(named nameKey: Swift.String, _ handler: @escaping () -> Swift.Void) -> SwiftUICore.ModifiedContent<Content, Modifier>
 }
 extension SwiftUI.Toggle where Label == SwiftUICore.Text {
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, isOn: SwiftUICore.Binding<Swift.Bool>)
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: Swift.String, isOn: SwiftUICore.Binding<Swift.Bool>)
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, isOn: SwiftUICore.Binding<Swift.Bool>)
+  public init(_ titleKey: Swift.String, isOn: SwiftUICore.Binding<Swift.Bool>)
 }
 @available(iOS 16.0, *)
 extension SwiftUI.Toggle where Label == SwiftUICore.Text {
-  @_Concurrency.MainActor @preconcurrency public init<C>(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, sources: C, isOn: Swift.KeyPath<C.Element, SwiftUICore.Binding<Swift.Bool>>) where C : Swift.RandomAccessCollection
-  @_Concurrency.MainActor @preconcurrency public init<C>(_ titleKey: Swift.String, sources: C, isOn: Swift.KeyPath<C.Element, SwiftUICore.Binding<Swift.Bool>>) where C : Swift.RandomAccessCollection
+  public init<C>(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, sources: C, isOn: Swift.KeyPath<C.Element, SwiftUICore.Binding<Swift.Bool>>) where C : Swift.RandomAccessCollection
+  public init<C>(_ titleKey: Swift.String, sources: C, isOn: Swift.KeyPath<C.Element, SwiftUICore.Binding<Swift.Bool>>) where C : Swift.RandomAccessCollection
 }
 @available(iOS 14.0, *)
 extension SwiftUI.Menu where Label == SwiftUICore.Text {
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, @SwiftUICore.ViewBuilder content: () -> Content)
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: Swift.String, @SwiftUICore.ViewBuilder content: () -> Content)
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, @SwiftUICore.ViewBuilder content: () -> Content)
+  public init(_ titleKey: Swift.String, @SwiftUICore.ViewBuilder content: () -> Content)
 }
 @available(iOS 14.0, *)
 extension SwiftUI.DisclosureGroup where Label == SwiftUICore.Text {
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, @SwiftUICore.ViewBuilder content: @escaping () -> Content)
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: Swift.String, @SwiftUICore.ViewBuilder content: @escaping () -> Content)
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, isExpanded: SwiftUICore.Binding<Swift.Bool>, @SwiftUICore.ViewBuilder content: @escaping () -> Content)
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: Swift.String, isExpanded: SwiftUICore.Binding<Swift.Bool>, @SwiftUICore.ViewBuilder content: @escaping () -> Content)
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, @SwiftUICore.ViewBuilder content: @escaping () -> Content)
+  public init(_ titleKey: Swift.String, @SwiftUICore.ViewBuilder content: @escaping () -> Content)
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, isExpanded: SwiftUICore.Binding<Swift.Bool>, @SwiftUICore.ViewBuilder content: @escaping () -> Content)
+  public init(_ titleKey: Swift.String, isExpanded: SwiftUICore.Binding<Swift.Bool>, @SwiftUICore.ViewBuilder content: @escaping () -> Content)
 }
 @available(iOS 15.0, *)
 extension SwiftUI.GroupBox where Label == SwiftUICore.Text {
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, @SwiftUICore.ViewBuilder content: () -> Content)
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: Swift.String, @SwiftUICore.ViewBuilder content: () -> Content)
+  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, @SwiftUICore.ViewBuilder content: () -> Content)
+  public init(_ titleKey: Swift.String, @SwiftUICore.ViewBuilder content: () -> Content)
 }
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func navigationBarTitle(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, displayMode: SwiftUI.NavigationBarItem.TitleDisplayMode) -> some SwiftUICore.View
