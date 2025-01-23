@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/ApplangaSwiftUI-Swift.h</key>
 		<data>
-		KUBt555haXoKfEAq8Ddmu+K8vQQ=
+		AeGPIC/vGKcwkKpX0GQCjm3/pf8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		G3LifKg4ZN3pQVglOEen38TzLhg=
+		M/eKeisb2GvXBS79lM2ndF96C9M=
 		</data>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		oRIhZx15LjDLMz/gXGw8OXT/H2k=
+		XUZypGkDu0yRlPz1HJLP6Wxf53I=
 		</data>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		AIeGyni+YvwLtHQQR4gIKk8yL/w=
+		DkIGqNa5KVeBKhDt6HG4Yj0XPBY=
 		</data>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		oRIhZx15LjDLMz/gXGw8OXT/H2k=
+		XUZypGkDu0yRlPz1HJLP6Wxf53I=
 		</data>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		iBgdKyNkWgVRgmUVF6F1jTcVf0s=
+		4nJtptribNHZDFXlbHlwvyWlu2Q=
 		</data>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		uUPmxS1mz9cFKAsed+/RCuxeGho=
+		Ajdck1fNbtyfvU/GVSkt8E5ogVM=
 		</data>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		ovq1tuVHpD/qcU1h/VbZkrwtF9Y=
+		XaaYmAeDjRTjZEftiQ7GF4RgHe4=
 		</data>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		uUPmxS1mz9cFKAsed+/RCuxeGho=
+		Ajdck1fNbtyfvU/GVSkt8E5ogVM=
 		</data>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		N06WngD91qYFP9yBv/eXlnauyGo=
+		dT0H4t0aZqcTE+z/gdAy4ttz1rY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lGfAuCyGeun4s8GZrr/v8BOJ0hZtcCgYJzZlbEHitfU=
+			RtszA/Wt5LE4FTjRtH3rCDxqC03Hf7CUPy50W15W+Vg=
 			</data>
 		</dict>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
@@ -77,28 +77,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l78uRBapHvrDFAVZeCf+up6pVNdpMh912auDxIy7XJk=
+			8rJ1CSRdR9TyirmjJAjG40ym6mONF6pVCjB2Zb8aCTQ=
 			</data>
 		</dict>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PSkKVYFCYngF3OuwTK7x8QE8o1VmqVd+6mq+HZSX4HA=
+			zkgkUdMbRkO69hLq+BU92fbrS3FLGWFUnpROiJDyruI=
 			</data>
 		</dict>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l78uRBapHvrDFAVZeCf+up6pVNdpMh912auDxIy7XJk=
+			8rJ1CSRdR9TyirmjJAjG40ym6mONF6pVCjB2Zb8aCTQ=
 			</data>
 		</dict>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nHcXIA1C4GkamTXtiu1xIh1D+nw7mQSBDpxTcPGNG14=
+			R9ONhkYvyzGkQYmHatkorVo0YHXpwpAMuN5vAlsArQM=
 			</data>
 		</dict>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
@@ -112,28 +112,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pv19UspjFTH4Asf8kQ92QDkbZL1+bPTBNArUrhTWWKI=
+			5aOXNCIkR5Lr8C9BnwxYOcpGqiJU42HWgsIL5amDxZI=
 			</data>
 		</dict>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zs9c4TPjS3jmKZ0m62nBiCv9ImzuEWisfQhXxxJj1v8=
+			fF1AGYdgnzIGd6J6EC4FLtALlHA9bd2UI2Cr2w1vlj4=
 			</data>
 		</dict>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pv19UspjFTH4Asf8kQ92QDkbZL1+bPTBNArUrhTWWKI=
+			5aOXNCIkR5Lr8C9BnwxYOcpGqiJU42HWgsIL5amDxZI=
 			</data>
 		</dict>
 		<key>Modules/ApplangaSwiftUI.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L3a+H3GFA0pD2E4V3PF/O2lNbXtYgvgLRqr2nKFJGtQ=
+			lADUn9zEoa7OPCGUWaRtvuFRngvSlYnOoA+YaZwamiE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

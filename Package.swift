@@ -11,7 +11,7 @@ let package = Package(
             targets: ["ApplangaSwiftUIWrapper"])
     ],
     dependencies: [
-        .package(name: "Applanga", url: "https://github.com/applanga/sdk-ios", from: "2.0.204")
+        .package(name: "Applanga", url: "https://github.com/applanga/sdk-ios", from: "2.0.205")
     ],
     targets: [
         .binaryTarget(name: "ApplangaSwiftUI",
