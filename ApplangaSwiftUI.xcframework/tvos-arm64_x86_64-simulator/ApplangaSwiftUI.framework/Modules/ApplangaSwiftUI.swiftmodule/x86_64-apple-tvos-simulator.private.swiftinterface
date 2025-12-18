@@ -1,13 +1,12 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-tvos18.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ApplangaSwiftUI
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-tvos26.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name ApplangaSwiftUI
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import Applanga
 import Foundation
 import ObjectiveC
 import Swift
 import SwiftUI
-import SwiftUICore
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -42,13 +41,21 @@ extension SwiftUICore.Text : ApplangaSwiftUI.ApplanagaTextProtocol {
 extension SwiftUI.TextField where Label == SwiftUICore.Text {
   public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, text: SwiftUICore.Binding<Swift.String>, axis: SwiftUICore.Axis)
   public init(_ titleKey: Swift.String, text: SwiftUICore.Binding<Swift.String>, axis: SwiftUICore.Axis)
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, text: SwiftUICore.Binding<Swift.String>, prompt: SwiftUICore.Text?, axis: SwiftUICore.Axis)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(_ titleKey: Swift.String, text: SwiftUICore.Binding<Swift.String>, prompt: SwiftUICore.Text?, axis: SwiftUICore.Axis)
+  #endif
 }
 @available(iOS 15.0, *)
 extension SwiftUI.TextField where Label == SwiftUICore.Text {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, text: SwiftUICore.Binding<Swift.String>, prompt: SwiftUICore.Text?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(_ titleKey: Swift.String, text: SwiftUICore.Binding<Swift.String>, prompt: SwiftUICore.Text?)
+  #endif
 }
 extension SwiftUI.TextField where Label == SwiftUICore.Text {
   public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, text: SwiftUICore.Binding<Swift.String>)
@@ -72,8 +79,8 @@ extension SwiftUI.LabeledContent where Label == SwiftUICore.Text, Content : Swif
 }
 @available(iOS 14.0, *)
 extension SwiftUI.Link where Label == SwiftUICore.Text {
-  public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, destination: Foundation.URL)
-  public init(_ titleKey: Swift.String, destination: Foundation.URL)
+  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: ApplangaSwiftUI.ApplangaLocalizedStringKey, destination: Foundation.URL)
+  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: Swift.String, destination: Foundation.URL)
 }
 @available(iOS 14.0, *)
 extension SwiftUICore.ModifiedContent where Modifier == SwiftUI.AccessibilityAttachmentModifier {
@@ -157,8 +164,12 @@ extension Swift.DefaultStringInterpolation {
     @objc deinit
   }
   public mutating func appendInterpolation(_ string: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public mutating func appendInterpolation<Subject>(_ subject: Subject, formatter: Foundation.Formatter? = nil) where Subject : Foundation.ReferenceConvertible
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public mutating func appendInterpolation<Subject>(_ subject: Subject, formatter: Foundation.Formatter? = nil) where Subject : ObjectiveC.NSObject
+  #endif
   @available(iOS 15.0, *)
   public mutating func appendInterpolation<F>(_ input: F.FormatInput, format: F) where F : Foundation.FormatStyle, F.FormatInput : Swift.Equatable, F.FormatOutput == Swift.String
   public mutating func appendInterpolation<T>(_ value: T) where T : Swift.CustomStringConvertible, T : Swift.TextOutputStreamable
@@ -174,6 +185,8 @@ extension Swift.DefaultStringInterpolation {
   @available(iOS 14.0, *)
   public mutating func appendInterpolation(_ dates: Swift.ClosedRange<Foundation.Date>)
   public mutating func appendInterpolation(_ interval: Foundation.DateInterval)
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 16.0, *)
   public mutating func appendInterpolation(timerInterval: Swift.ClosedRange<Foundation.Date>, pauseTime: Foundation.Date? = nil, countsDown: Swift.Bool = true, showsHours: Swift.Bool = true)
+  #endif
 }

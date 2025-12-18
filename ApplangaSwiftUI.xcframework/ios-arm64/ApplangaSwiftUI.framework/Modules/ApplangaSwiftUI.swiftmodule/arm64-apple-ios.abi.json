@@ -950,13 +950,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUICore",
-        "printedName": "SwiftUICore",
-        "declKind": "Import",
-        "moduleName": "ApplangaSwiftUI"
-      },
-      {
-        "kind": "Import",
         "name": "ObjectiveC",
         "printedName": "ObjectiveC",
         "declKind": "Import",
@@ -1329,6 +1322,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -1913,6 +1913,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -2502,6 +2509,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2680,6 +2694,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2864,6 +2885,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -3120,6 +3148,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -3288,6 +3323,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "View",
             "printedName": "View",
             "children": [
@@ -3359,6 +3401,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -3399,6 +3445,10 @@
             "moduleName": "ApplangaSwiftUI",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           }
@@ -3414,10 +3464,12 @@
         "intro_tvOS": "14.0",
         "intro_watchOS": "7.0",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "Available",
           "Available",
-          "Available"
+          "Available",
+          "Custom"
         ],
         "isExternal": true,
         "conformances": [
@@ -3470,6 +3522,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -3574,6 +3633,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -3581,10 +3647,44 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatablePair",
+                    "printedName": "SwiftUI.AnimatablePair<τ_0_0.AnimatableData, τ_0_1.AnimatableData>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependentMember",
+                        "printedName": "τ_0_0.AnimatableData"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependentMember",
+                        "printedName": "τ_0_1.AnimatableData"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI14AnimatablePairV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
           },
           {
             "kind": "Conformance",
@@ -3650,6 +3750,13 @@
             ],
             "usr": "s:7SwiftUI18DynamicViewContentP",
             "mangledName": "$s7SwiftUI18DynamicViewContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VisualEffect",
+            "printedName": "VisualEffect",
+            "usr": "s:7SwiftUI12VisualEffectP",
+            "mangledName": "$s7SwiftUI12VisualEffectP"
           },
           {
             "kind": "Conformance",
@@ -4075,6 +4182,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -4268,6 +4382,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -4594,6 +4715,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -4786,6 +4914,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -5047,6 +5182,7 @@
         "intro_watchOS": "6.0",
         "declAttributes": [
           "Preconcurrency",
+          "TypeEraser",
           "TypeEraser",
           "OriginallyDefinedIn",
           "OriginallyDefinedIn",
@@ -5573,6 +5709,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -6354,6 +6497,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -6438,49 +6588,49 @@
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "IntegerLiteral",
-      "offset": 236,
+      "offset": 217,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "IntegerLiteral",
-      "offset": 5975,
+      "offset": 5956,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "IntegerLiteral",
-      "offset": 5998,
+      "offset": 5979,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
-      "offset": 6190,
+      "offset": 6171,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "Array",
-      "offset": 6613,
+      "offset": 6594,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
-      "offset": 11930,
+      "offset": 11911,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/ExternalJenkins\/jenkins\/workspace\/applanga-iOS-CocoaPods-Deploy\/sdk\/ios\/SwiftUI\/ApplangaSwiftUI\/ApplangaSwiftUI\/ApplangaStringInterpolation.swift",
       "kind": "BooleanLiteral",
-      "offset": 11955,
+      "offset": 11936,
       "length": 4,
       "value": "true"
     }
