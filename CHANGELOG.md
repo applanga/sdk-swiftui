@@ -5,7 +5,7 @@
 *Applanga iOS Documentation:* <https://www.applanga.com/docs-integration/ios> 
 ***
 
-### Version 2.0.219 (22 Jan 2026)
+### Version 2.0.221 (12 Feb 2026)
 #### Added
 - updated the base applanga sdk version
 
